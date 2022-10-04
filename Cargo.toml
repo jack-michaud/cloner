@@ -4,6 +4,14 @@ version = "0.1.0"
 authors = ["Jack Michaud <jack@lomz.me>"]
 edition = "2018"
 
+[lib]
+name = "cloner_lib"
+path = "src/cloner_lib.rs"
+
+[[bin]]
+name = "cloner"
+path = "src/bin.rs"
+
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
