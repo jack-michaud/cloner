@@ -22,5 +22,5 @@ If you need a different version for your machine, [make an issue](https://github
 
 ```
 # Script to cd into a Code directory
-alias coad="cd $(find ~/Code -maxdepth 3 | fzf)"
+alias coad='cd $(find ~/Code -maxdepth 3 | fzf)'
 ```
