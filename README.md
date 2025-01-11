@@ -13,6 +13,10 @@ Code/github.com/jack-michaud/cloner/
 
 # Installation
 
+Check in the [Releases tab for the latest binary download](https://github.com/jack-michaud/cloner/releases).
+
+If you need a different version for your machine, [make an issue](https://github.com/jack-michaud/cloner/issues/new).
+
 
 # Practical Use
 
