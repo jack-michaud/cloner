@@ -12,5 +12,8 @@ fn main() {
 
     let url = &args[1];
     println!("Got url: {}", url);
-    cloner_lib::clone_git_url_to_preferred_directory(url.clone());
+    match cloner_lib::clone_git_url_to_preferred_directory(url.clone()) {
+        Ok(_) => println!("Clone successful"),
+        Err(e) => eprintln!("Error: {:?}", e),
+    }
 }
